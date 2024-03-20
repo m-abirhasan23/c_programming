@@ -84,16 +84,27 @@ int main()
     // }
     //***************************************************************************//
     // C Program to Find Factorial of a Number
-    int number, sum = 1;
-    printf("Enter a number: ");
-    scanf("%d", &number);
+    // int number, sum = 1;
+    // printf("Enter a number: ");
+    // scanf("%d", &number);
 
-    for (int i = 1; i <= number; i++)
+    // for (int i = 1; i <= number; i++)
+    // {
+
+    //     sum = sum * i;
+    // }
+    // printf("%d\n", sum);
+    int n, i;
+
+    printf("Enter a positive integer: ");
+    scanf("%d", &n);
+
+    printf("First %d natural numbers:\n", n);
+
+    for (i = 1; i <= n; ++i)
     {
-
-        sum = sum * i;
+        printf("%d ", i);
     }
-    printf("%d\n", sum);
 
     return 0;
 }
