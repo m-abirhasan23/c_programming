@@ -16,19 +16,19 @@ int main()
     {
         if (NUMBER >= 90)
         {
-            printf("YOU GOT A GRADE");
+            printf(" A ");
         }
         else if (NUMBER >= 80 && NUMBER < 90)
         {
-            printf("YOU GOT B GRADE");
+            printf(" B ");
         }
         else if (NUMBER >= 70 && NUMBER < 80)
         {
-            printf("YOU GOT C GRADE");
+            printf(" C ");
         }
         else if (NUMBER >= 60 && NUMBER < 70)
         {
-            printf("YOU GOT D GRADE");
+            printf(" D ");
         }
         else
         {
